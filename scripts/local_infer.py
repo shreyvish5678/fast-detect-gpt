@@ -51,13 +51,44 @@ def run(args):
     print('')
     while True:
         print("Please enter your text: (Press Enter twice to start processing)")
-        lines = []
-        while True:
-            line = input()
-            if len(line) == 0:
-                break
-            lines.append(line)
-        text = "\n".join(lines)
+        text = """⁤Racism, privilege, and stereotyping are pervasive social issues that have been embedded in our society for far too long. ⁤⁤
+
+These concepts not only perpetuate harm towards ⁤marginalized groups but also undermine the very fabric of our community. ⁤⁤It is essential to acknowledge these issues and work towards creating a more equitable and just ⁤society. 
+
+⁤Racism, in particular, remains a significant problem in today's world. ⁤⁤From subtle microaggressions to overt acts of discrimination, racism can take many forms. ⁤⁤
+
+It is ⁤crucial to recognize that racism is not solely the domain of extreme groups or individuals; rather, it can be perpetuated by well-intentioned people who are unaware of their ⁤biases. 
+
+⁤⁤For instance, using racial slurs as a joke or making assumptions about someone's abilities based on their race are both examples of unconscious racism. ⁤⁤Moreover, ⁤institutional racism, where systems and policies are designed to benefit one group over another, is just as harmful. ⁤
+
+⁤Privilege, another crucial concept, refers to the unearned advantages that some individuals possess due to their social identity, such as race, gender, sexual orientation, ⁤or socioeconomic status. ⁤⁤
+
+Privileged groups often benefit from societal structures and norms that maintain power imbalances, making it essential for them to acknowledge and ⁤utilize their privilege to challenge existing injustices. ⁤⁤For instance, white people have historically had more opportunities and resources than racial minorities, which has ⁤contributed to persistent social and economic inequalities. ⁤
+
+⁤Stereotyping is another pernicious concept that can lead to harmful generalizations about entire groups of people. ⁤⁤Stereotypes can be based on race, gender, nationality, or ⁤⁤any other characteristic. ⁤⁤These assumptions not only perpetuate negative attitudes but also limit opportunities for individuals who do not fit the predetermined mold. ⁤⁤
+
+For ⁤⁤example, stereotyping women in traditionally male-dominated fields as less capable or having a "glass ceiling" to break through can lead to underrepresentation and ⁤underevaluation of their skills. ⁤
+
+⁤The consequences of these concepts are far-reaching and devastating. ⁤⁤
+
+Racism and privilege contribute to systemic inequalities, such as poverty, unequal access to education, ⁤and limited job opportunities for marginalized groups. ⁤⁤
+
+Stereotyping can lead to discrimination in employment, housing, education, and healthcare, further exacerbating ⁤existing disparities. ⁤⁤
+
+Moreover, the perpetuation of harmful stereotypes can lead to self-fulfilling prophecies, where individuals internalize negative expectations and ⁤underachieve due to lack of support or resources. ⁤
+
+⁤To address these issues, it is essential to engage in meaningful discussions, educate ourselves about the experiences of marginalized groups, and work towards creating ⁤
+
+⁤inclusive environments. ⁤⁤This includes recognizing and challenging our own biases, being mindful of language and imagery that perpetuates stereotypes, and advocating for ⁤policies that promote equity and justice. ⁤
+
+⁤Furthermore, we must acknowledge and address the historical context that has led to these social issues. ⁤⁤Understanding the systemic barriers and biases that have been built ⁤into our society is crucial to dismantling them. ⁤⁤This involves recognizing the impact of colonization, slavery, and other forms of oppression on marginalized communities and ⁤⁤working towards reparations and restorative justice. ⁤
+
+Ultimately, addressing racism, privilege, and stereotyping requires a collective effort from individuals, organizations, and governments. ⁤
+
+⁤It demands empathy, understanding, ⁤and a commitment to creating a society where all people have equal opportunities and are treated with dignity and respect. ⁤⁤
+
+By acknowledging these issues and working together ⁤⁤to overcome them, we can build a more just and equitable world for everyone. ⁤
+        """
         if len(text) == 0:
             break
         # evaluate text
