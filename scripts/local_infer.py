@@ -104,6 +104,7 @@ By acknowledging these issues and working together ⁤⁤to overcome them, we ca
                 logits_ref = reference_model(**tokenized).logits[:, :-1]
             crit = criterion_fn(logits_ref, logits_score, labels)
         # estimate the probability of machine generated text
+        print(crit)
         prob = prob_estimator.crit_to_prob(crit)
         print(f'Fast-DetectGPT criterion is {crit:.4f}, suggesting that the text has a probability of {prob * 100:.0f}% to be machine-generated.')
         print()
